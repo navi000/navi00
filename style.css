@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body{
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#img-custom{
+
+	height: 500px;
+
+
+}
+
+.navbar-nav{
+
+	background-color: transparent;
+   
+}
+
+div.content:hover{
+	
+	color: grey;
+}
+
+div.content .col-md-11{
+
+	margin-top: -20px;
+	font-size: 130%;
+	font-weight: 500px
+}
+div.content img{
+  transform: scale(2,2);
+}
+
+#sec-col{
+	border-left: 2px solid cadetblue;
+	margin-top: 20px;
+	padding: 10px;
+}
+.navbar-nav li a {
+
+	
+	font-size: 16px;
+	margin-left: 25px;
+}
+
+.navbar-brand{
+
+	font-size: 35px;
+	content: white;
+	margin-left: 20px;
+	color: #fff;
+	font-weight: bolder;
+	margin-top: 10px;
+}
+.nav-link{
+
+	color: #fff;
+}
+
+
+
+.mega-menu{width: 1500px; overflow: hidden; padding: 10px;}
+
+.mega-menu a{text-decoration: none; color: cadetblue;}
+
+.mega-menu .sub-menu-heading{ color: darkcyan;}
+
+@media(max-width:500px){
+  .mega-menu{width: 300px;}
+}
+
+ div.item1, div.item2,div.item3{
+
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+div.item1 h3, div.item2 h3,div.item3 h3{
+
+	font-size: 15px;
+}
+
+
+.content-area{
+
+	margin-top: 120px;
+	padding: 10px;
+}
+
+.content-area p:first-child{
+
+	font-size: 100%;
+	color: slateblue;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	padding: 5px;
+}
+
+.content-area h2{
+
+   font-size: 40px;
+   font-weight: bold;
+   margin-top: -10px;
+  font-family: 'Raleway', sans-serif;
+  padding: 5px;
+
+}
+
+.content-area #brief-intro{
+
+	font-size: 130%;
+	opacity: 0.9;
+	font-family: 'Raleway', sans-serif;
+	padding: 5px;
+}
+section.img1{
+
+
+	background-image: url('img/1.jpg');
+	background-position: center;
+	background-size: cover;
+}
+section.img2{
+
+
+	background-image: url('img/2.jpg');
+	background-position: center;
+	background-size: cover;
+}
+section.img3{
+
+
+	background-image: url('img/3.jpg');
+	background-position: center;
+	background-size: cover;
+}
+section.img1 .col-md-6{
+
+	margin-top: 400px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.carousel-btn{
+
+	border-radius: 45px;
+	background-color: transparent;
+	border:2px solid #fff;
+	color: #fff;
+	padding: 10px;
+}
+.carousel-btn:hover{
+
+	padding: 10px;
+	transition: all 1s;
+	background-color: cadetblue;
+	color: #fff;
+
+}
+section.img2 .col-md-6{
+
+	margin-top: 400px;
+}
+section.img3 .col-md-6{
+
+	margin-top: 400px;
+}
+#main-head{
+
+	font-size: 205px;
+	font-weight: 700;
+	position: static;
+	color: #fff;
+	padding: 5px;
+
+}
+.sub-head{
+
+	font-size: 55px;
+	font-weight:400;
+	color: #fff;
+	padding: 5px;
+
+}
+.sub-para{
+	font-size: 120%;
+	color: #fff;
+}
+
+section.branding{
+
+padding: 10px;
+margin-top: 85px;		
+
+}
+
+.slider-heading{
+
+	color: #8247b5;
+	font-weight: bolder;
+	line-height:55px; 
+	font-size:50px;
+	margin-top: 80px;
+	margin-left: 25px;
+	
+	padding-top: 50px;
+}
+
+section.features{
+
+	margin-top: 70px;
+}
+
+section.features p:first-child{
+
+	font-size: 110%;
+	color: slateblue;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+}
+
+section.features h2{
+
+   font-size: 40px;
+   font-weight: bold;
+   margin-top: 0px;
+ font-family: 'Raleway', sans-serif;
+
+}
+
+section.features .row{
+
+	margin-top: 50px;
+
+}
+.features-subhead {
+
+	margin-top: 15px;
+	padding: 5px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+}
+.features-subpara{
+
+	text-align: justify;
+}
+
+.col-md-4 h4{
+
+font-size: 20px;
+font-weight: bolder;
+font-family: 'Raleway', sans-serif;
+margin-top: 20px;
+
+
+}
+
+.col-md-4 p{
+
+font-size: 130%;
+	opacity: 0.9;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 15px;
+
+}
+.col-md-4 img{
+	width:350px;
+}
+#bambora-numbers{
+
+font-family: 'Raleway', sans-serif;
+
+}
+section.bambora-numbers{
+
+	margin-top: 55px;
+
+
+}
+
+
+section.bambora-numbers h1{
+
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #442358;
+	line-height: 45px;
+	font-weight: bolder;
+
+	padding: 20px;
+}
+
+section.bambora-numbers h1.numbers{
+
+
+	font-size: 7rem;
+	text-transform: uppercase;
+	color: #442358;
+	line-height: 45px;
+	font-weight: bolder;
+
+	padding: 20px;
+	margin-top: 45px;
+
+
+}
+
+section.bambora-numbers p{
+ 
+ font-size: 20px;
+ line-height: 25px;
+ opacity: 0.9;
+
+}
+
+
+section.bambora-numbers button{
+
+	margin-top: 70px;
+	
+	background-color: transparent;
+	border:2px solid slateblue;
+	border-radius: 25px;
+	font-size: 20px;
+	color:#442358;
+	margin-left: 35%;
+	margin-bottom: 20px;
+
+}
+
+
+section.form-section{
+
+	background-image: url('img/blue.png');
+
+	margin-top: 50px;
+
+
+}
+
+section.form-section form{
+
+	background-color: #fff;
+	border-radius: 25px;
+	padding: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.form-content h1 {
+ 
+ color: #fff;
+ font-size: 4rem;
+ line-height: 4.8rem;
+ margin-top: 185px;
+	
+}
+
+.form-content p{
+
+	color: #fff;
+	font-size: 1.9rem;
+	line-height: 2.4rem;
+}
+
+section.future-payment p:first-child{
+
+	font-size: 120%;
+	color: slateblue;
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	margin-top: 10px;
+}
+
+section.future-payment h2{
+
+    font-size: 40px;
+   font-weight: bold;
+   margin-top: 0px;
+  font-family: 'Raleway', sans-serif;
+   margin-bottom: 40px;
+
+}
+
+
+footer{
+
+	margin-top: 70px;
+	padding: 20px;
+	background-color: gainsboro;
+}
+
+.footer-content h4 {
+
+
+  font-size: 22px;
+  color: #2F4F4F;
+  margin-top: 40px;
+	
+}
+
+.footer-content p{
+
+	font-size: 110%;
+	color: black;
+}
+
+
+@media (max-width: 700px){
+
+	#img-custom{
+
+		height: 300px;
+	}
+	.content-area{
+
+		margin-top: 40px;
+
+	}
+	.navbar-header{
+		background-color: #fff;
+	} 
+	#brand{
+		color: #8247b5;
+		margin-top: 10px;
+		margin-left: 10px;
+		padding: 5px;
+	}
+	.content-area {
+
+		font-size: 15px;
+		margin-top: 10px;
+		text-align: justify;
+	}
+	#media{
+		margin-top: 20px;
+	}
+	#customer{
+
+		font-size: 30px;
+		text-align: justify;
+		margin-left: 0px;
+	}
+
+	section.branding .col-md-2 img{
+      
+      margin-left: 70px;
+      width: 150px;
+      height: 100px;
+
+	}
+	.features-content p{
+
+		font-size: 15px;
+	}
+	#features-p{
+
+		font-size: 12px;
+	}
+
+	#features-h2{
+
+		font-size: 30px;
+	}
+	#bambora-numbers{
+
+		font-size: 35px;
+		text-align: justify-all;
+	}
+	section.bambora-numbers h1.numbers{
+
+		font-size: 55px;
+	}
+	section.bambora-numbers p{
+
+		font-size: 18px;
+	}
+
+	section.bambora-numbers .col-md-4{
+
+		margin-left: 55px;
+
+	}
+	section.bambora-numbers button{
+
+		margin-left: 65px;
+		font-size: 15px;
+	}
+	section.future-payment p:first-child {
+
+		font-size: 15px;
+	}
+	section.future-payment h2{
+
+		font-size: 25px;
+		margin-top: -5px;
+	}
+
+	footer {
+
+		font-size: 90%;
+	}
+
+	footer img{
+
+		width: 250px;
+		height: 150px;
+		margin-top: -50px;
+	}
+	footer .row{
+
+		margin-left: 30px;
+	}
+
+	section.future-payment .col-md-4{
+
+		margin-top: 20px;
+	}
+
+	.nav-btn{
+
+		margin-left: 30px;
+	}
+	div.navbar-collapse{
+
+		background-color: grey;
+
+	}
+	div.dropdown-menu{
+		visibility: hidden;
+	}
+	body{
+		overflow-x: hidden;
+	}
+   h1#main-head{
+   	font-size: 85px;
+   	margin-top: -280px;
+   }
+   .slider-heading{
+
+   	font-size: 35px;
+   	text-align: center;
+   	margin-left: -10px;
+
+   }
+   .sub-head{
+   	margin-top: -200px;
+   	font-size: 35px;
+   }
+   .sub-para{
+   	margin-bottom: 30px;
+   	margin-top: 20px;
+   }
+   .carousel-btn{
+   	padding: 5px;
+   	margin-bottom: 15px;
+
+   }
+  .content-area #brief-intro{
+   	font-size:110%; 
+   	color: black;	
+   }
+   .content-area h2{
+   	padding:0px;
+   }
+   .form-content h1{
+   	margin-top:40px;
+   	font-size: 30px;
+   }
+   .form-content p{
+
+   	font-size: 15px;
+   }
+   .col-sm-12{
+   	margin-top: 0px;
+   }
+   form.form{
+   	margin-top: 30px;
+   }
+}
